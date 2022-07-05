@@ -1,0 +1,193 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    user-select: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../ressources/rose.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    position:absolute;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;  
+    overflow-y: hidden;
+}
+
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    top: 0px;
+    transition: all 0.3s ease-out;
+    border-bottom: 1px solid rgb(125, 125, 125);
+    background: linear-gradient(coral,rgb(211, 11, 178)) ;
+
+   
+   
+   
+}
+
+nav:hover {
+    color: #f1f1f1;
+    border-top: 1px solid rgb(125, 125, 125);
+    border-bottom: 1px solid rgb(125, 125, 125);
+    background: linear-gradient(grey,black) ;
+    
+    
+ 
+}
+nav ul li a {
+    margin: 0 120px;
+    font-size: 20px;
+    font-family: monospace;
+    transition: all .3s;  
+    padding: 10px 20px 10px 20px;
+    backdrop-filter: blur(1px);
+    border-radius: 10px;
+    background-color: wheat;
+    border-top: 1px solid rgb(125, 125, 125);
+    border-left: 1px solid rgb(125, 125, 125);
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(5px);
+}
+.por {
+    color: black;
+  
+    border-bottom: 1px solid rgb(125, 125, 125);
+    background: linear-gradient(rgb(211, 11, 178),rgb(226, 123, 39)) ;
+
+    
+    
+}
+.pro {
+    color: black;
+  
+    border-bottom: 1px solid rgb(125, 125, 125);
+    background: linear-gradient(rgb(108, 12, 233),rgb(5, 247, 214)) ;
+
+    
+    
+}
+
+.con {
+    color: black;
+  
+    border-bottom: 1px solid rgb(125, 125, 125);
+    
+    background: linear-gradient(blue,greenyellow) ;
+}
+
+    
+
+
+.anim-nav {
+    color: #f1f1f1;
+  
+    border-bottom: 1px solid rgb(125, 125, 125);
+    
+    background: linear-gradient(pink,blue) ;
+    
+}
+
+.anim-nav2 {
+    color: #f1f1f1;
+  
+    border-bottom: 1px solid rgb(125, 125, 125);
+    
+    background: linear-gradient(greenyellow,rgb(27, 27, 83)) ;
+    
+}
+
+.liste{
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    
+}
+
+.compte {
+    border-radius: 60%;
+    width: 50px;
+    height: 50px;
+}
+section {
+    height: 100vh;
+}
+p {
+    color: transparent;
+}
+
+
+
+
+#projets {
+    background: url(../ressources/violet.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    
+}
+
+#contact {
+    background: url(../ressources/648552.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.cardC {
+    height: 650px;
+    width: 400px; 
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    background-color: wheat;
+    left: 1250px;
+    top: 120px;
+    position: relative;
+    border-top: 1px solid rgb(125, 125, 125);
+    border-left: 1px solid rgb(125, 125, 125);
+    background: rgba(255, 255, 255, 0.1); 
+   
+}
+.cardC2 {
+    height: 650px;
+    width: 400px; 
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    background-color: wheat;
+    left: 50px;
+    bottom: 530px;
+    position: relative;
+    border-top: 1px solid rgb(125, 125, 125);
+    border-left: 1px solid rgb(125, 125, 125);
+    background: rgba(255, 255, 255, 0.1); 
+   
+}
+
+    
+
+  

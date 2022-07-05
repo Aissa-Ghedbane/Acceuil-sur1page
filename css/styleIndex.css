@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    user-select: none;
+    box-sizing: border-box;
+}
+body {
+   display:grid;
+   place-items: center;
+   height:100vh;
+   background-image: url(../ressources/648552.jpg);
+   font-family:'Courier New', Courier, monospace;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center center;
+}
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;  
+    overflow-y: hidden;
+}
+.container {
+    display: grid;
+    place-items: center;
+    position: relative;
+    width: 255px;
+    height: 355px;
+    border-radius: 1em;
+    background: linear-gradient(50deg, rgb(10, 146, 112), black);
+    overflow: hidden;
+    top: 300px;
+   
+}
+.container::before {
+    content: "";
+    position: absolute;
+    width: 450px;
+    height: 35px;
+    top: 0;
+    right: 35px;
+    transition: 1.9s;
+    background: linear-gradient(50deg, #00ff59, #02b3ff);
+    transform: rotate(-45deg) translate(0, -100px);
+}
+.card {
+    display: grid;
+    place-items: center;
+    width: 247px;
+    height: 347px;
+    background: black;
+    border-radius: .8em;
+    z-index:1;
+    color: grey;
+    overflow: hidden;
+    padding: 1em;
+    text-align: center;
+    cursor:pointer;
+    transition: .5s ease;
+  
+}
+.card:hover{
+    color:white;
+}
+.container:hover::before {
+    animation: effect 1.9s;
+}
+@keyframes effect {
+    100% {
+        transform: rotate(-45deg) translate(0, 450px);
+    }
+}
+a {
+    text-decoration: none;
+    color: #00ff59;
+}
+nav {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    top: 0px;
+    transition: all 0.3s ease-out;
+    /* border-bottom: 1px solid rgb(125, 125, 125);
+    background: linear-gradient(coral,rgb(211, 11, 178)); */
+}
+
+nav:hover {
+    color: #f1f1f1;
+    border-top: 1px solid rgb(125, 125, 125);
+    border-bottom: 1px solid rgb(125, 125, 125);
+    background: linear-gradient(grey,black) ;
+}
+
+nav ul li a {
+    margin: 0 120px;
+    font-size: 20px;
+    transition: all .3s;  
+    padding: 10px 20px 10px 20px;
+   
+  
+}
+
+
+
+.por {
+    border-radius: 80px;
+    color: rgb(187, 182, 182);
+    border-bottom: 1px solid rgb(125, 125, 125);
+    background: linear-gradient(rgb(14, 170, 131), black);
+    border-left: 1px solid rgb(125, 125, 125);
+    
+}
+.por:hover {
+    border-radius: 80px;
+    color: white;
+    border-bottom: 1px solid rgb(125, 125, 125);
+    background: linear-gradient(50deg, rgb(14, 170, 131), black);
+    border-left: 1px solid rgb(125, 125, 125);
+   
+}
+.pro {
+    border-radius: 80px;
+    color: rgb(184, 182, 182);
+    border-bottom: 1px solid rgb(125, 125, 125);
+    background: linear-gradient(rgb(14, 170, 131), black);
+    border-left: 1px solid rgb(125, 125, 125);
+}
+.pro:hover {
+    border-radius: 80px;
+    color: white;
+    border-bottom: 1px solid rgb(125, 125, 125);
+    background: linear-gradient(50deg, rgb(14, 170, 131), black);
+    border-left: 1px solid rgb(125, 125, 125);
+   
+}
+
+.con {
+    border-radius: 80px;
+    color: rgb(187, 184, 184);
+    border-bottom: 1px solid rgb(125, 125, 125);
+    background: linear-gradient(rgb(14, 170, 131), black);
+    border-left: 1px solid rgb(125, 125, 125);
+    
+    
+}
+.con:hover {
+    border-radius: 80px;
+    color: white;
+    border-bottom: 1px solid rgb(125, 125, 125);
+    background: linear-gradient(50deg, rgb(14, 170, 131), black);
+    border-left: 1px solid rgb(125, 125, 125);
+   
+}
+
+.anim-nav {
+    color: #f1f1f1;
+    border-bottom: 1px solid rgb(125, 125, 125);
+    background: linear-gradient(pink,blue);
+}
+.anim-nav2 {
+    color: #f1f1f1;
+  
+    border-bottom: 1px solid rgb(125, 125, 125);
+    
+    background: linear-gradient(greenyellow,rgb(27, 27, 83)) ;
+    
+}
+
+.liste{
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    
+}
+
+.compte {
+    border-radius: 60%;
+    width: 50px;
+    height: 50px;
+}
+section {
+    height: 100vh;
+}
+p {
+    color: transparent;
+}
+
+
+
+
+#projets {
+    background: url(../ressources/violet.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    
+}
+
+#contact {
+    background: url(../ressources/648552.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
